@@ -1,0 +1,120 @@
+.nav nav {
+  background-color: #f2f2f2;
+}
+
+.main-flex {
+  display: flex;
+}
+
+.sidebar {
+  flex-basis: 15%;
+  background-color: #364757;
+  height: 92.2vh;
+}
+
+.main-body {
+  flex-basis: 85%;
+  padding: 20px 35px;
+}
+
+.main-body .subtitle {
+  font-size: 16px;
+}
+
+.search-bar {
+  display: flex;
+  background-color: #364757;
+  padding: 20px 15px;
+}
+
+.search-bar input {
+  background: transparent;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+}
+
+.search-bar input:focus {
+  outline: 0;
+}
+
+.sidebar-menu {
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.sidebar-menu .sidebar-links {
+  background-color: #314a5f;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #fff;
+  padding-left: 34px;
+  width: 100%;
+}
+
+.sidebar-menu .sidebar-links a {
+  color: #fff !important;
+}
+
+.sidebar-footer {
+  margin-top: 13.5em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-top: 1px solid #3f5263;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-footer p {
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.title h1 {
+  color: #32b3a7;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px !important;
+}
+
+.title {
+  margin-bottom: 0px !important;
+}
+
+.b-checkbox.checkbox input[type='checkbox']:checked + .check {
+  background: #32b3a7 url('~/assets/checkbox.svg') no-repeat center center !important;
+  border-color: #32b3a7 !important;
+}
+
+.b-checkbox.checkbox:hover input[type='checkbox']:not(:disabled) + .check {
+  border-color: #32b3a7 !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.select select {
+  border: none !important;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  border-color: #6d6e71 !important;
+}
+section .field {
+  width: 100%;
+}
+
+.upload {
+  width: 100%;
+}
+
+.upload-draggable {
+  width: 100%;
+}
+
+.upload .upload-draggable {
+  border: 1px dashed #32b3a7 !important;
+}
